@@ -7,9 +7,9 @@
 
     self.visionSelect = function (index, event) {
         if (event.shiftKey) {
-            setVision(observerVision.latchingSolo(getVision(), index));
+            setVision(spectatorVision.latchingSolo(getVision(), index));
         } else {
-            setVision(observerVision.cancelingSolo(getVision(), index));
+            setVision(spectatorVision.cancelingSolo(getVision(), index));
         }
     };
 

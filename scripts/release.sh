@@ -50,7 +50,7 @@ function next-snapshot-version() {
     echo "$prefix$suffix-SNAPSHOT"
 }
 
-APP_NAME="Observer Vision"
+APP_NAME="Spectator Vision"
 NEXT_VERSION=`next-snapshot-version $RELEASE_VERSION`
 
 demand-file-contains-line README.md "### $APP_NAME $RELEASE_VERSION (`date --iso-8601`)"

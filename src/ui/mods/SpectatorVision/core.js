@@ -2,8 +2,11 @@
 // This software is released under the Apache License 2.0.
 // The license text is at http://www.apache.org/licenses/LICENSE-2.0
 
-var observerVision = (function () {
+var spectatorVision = (function () {
     var self = {};
+
+    // Named after solo modes in audio mixers:
+    // http://erikhawkins.berkleemusicblogs.com/2009/06/27/when-to-solo/
 
     self.cancelingSolo = function (vision, index) {
         if (soleVisibleIndex(vision) === index) {

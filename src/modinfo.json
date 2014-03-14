@@ -1,24 +1,24 @@
 {
     "context": "client",
-    "identifier": "net.orfjackal.pa-observer-vision",
-    "display_name": "Observer Vision",
-    "description": "Improved observer visibility controls. Use click or shift-click on rows in the player list.",
+    "identifier": "net.orfjackal.pa-spectator-vision",
+    "display_name": "Spectator Vision",
+    "description": "Improved spectator visibility controls. Use click or shift-click on rows in the player list.",
     "author": "ORFJackal",
     "version": "1.0.0-SNAPSHOT",
     "build": "xx",
     "date": "2014/xx/xx",
-    "forum": "https://forums.uberent.com/threads/observer-vision.57890/",
-    "icon": "http://pamods.github.io/icons/ObserverVision.png",
+    "forum": "https://forums.uberent.com/threads/spectator-vision.57890/",
+    "icon": "http://pamods.github.io/icons/SpectatorVision.png",
     "category": [
         "in-game",
         "ui"
     ],
-    "id": "ObserverVision",
+    "id": "SpectatorVision",
     "priority": 100,
     "scenes": {
         "live_game": [
-            "coui://ui/mods/ObserverVision/core.js",
-            "coui://ui/mods/ObserverVision/live_game_hook.js"
+            "coui://ui/mods/SpectatorVision/core.js",
+            "coui://ui/mods/SpectatorVision/live_game_hook.js"
         ]
     },
     "enabled": true
