@@ -4,9 +4,9 @@
     "display_name": "Spectator Vision",
     "description": "Improved spectator visibility controls. Use click or shift-click on rows in the player list.",
     "author": "ORFJackal",
-    "version": "1.0.0-SNAPSHOT",
-    "build": "xx",
-    "date": "2014/xx/xx",
+    "version": "1.0.0",
+    "build": "62857",
+    "date": "2014/03/15",
     "forum": "https://forums.uberent.com/threads/spectator-vision.57890/",
     "icon": "http://pamods.github.io/icons/SpectatorVision.png",
     "category": [
