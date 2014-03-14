@@ -1,0 +1,25 @@
+{
+    "context": "client",
+    "identifier": "net.orfjackal.pa-observer-vision",
+    "display_name": "Observer Vision",
+    "description": "Improved observer visibility controls. Use click or shift-click on player names.",
+    "author": "ORFJackal",
+    "version": "1.0.0-SNAPSHOT",
+    "build": "xx",
+    "date": "2014/xx/xx",
+    "forum": "https://forums.uberent.com/threads/observer-vision.xx/",
+    "icon": "http://pamods.github.io/icons/ObserverVision.png",
+    "category": [
+        "in-game",
+        "ui"
+    ],
+    "id": "ObserverVision",
+    "priority": 100,
+    "scenes": {
+        "live_game": [
+            "coui://ui/mods/ObserverVision/core.js",
+            "coui://ui/mods/ObserverVision/live_game_hook.js"
+        ]
+    },
+    "enabled": true
+}
